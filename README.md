@@ -1,8 +1,11 @@
-EGL_Wrap-Library-AmigaOS4-PPC
-
 Beta Beta Beta Work In Progress please update immediately your all games/API after this new release
 
 LibEGL_wrap Version 0.7.19 2022
+
+Minimal required:
+Warp3DNova.library Version 54 revision 16
+ogles2.library Version 3 revision 3
+ 
 
 EGL can be implemented on multiple operating systems and now on native AmigaOS4.
 Implementations may also choose to allow rendering into specific types of EGL surfaces via other supported native rendering APIs (here OpenglES 2.0 for AmigaOS4.x).
@@ -10,7 +13,7 @@ Mechanisms for creating rendering surfaces (windows, pbuffers, pixmaps) onto whi
 Methods to create and manage graphics contexts for client APIs.
 Ways to synchronize drawing by client APIs as well as native platform rendering APIs.
 The EGLStreams extension provides a powerful but easily programmed API to control how a stream of images flow between AmigaOS4 OpenglES 2.0 APIs to enable advanced applications such as Augmented Reality with full hardware acceleration.
-Include ow GL4es created by PtitSeb (https://github.com/ptitSeb/gl4es), image decoder PNG/JPEG/BMP/TGA by HunoPPC, sound engine by HunoPPC, AmigaInput lowlevel by HunoPPC,GUI by HunoPPC,SDL1 and SDL2 by HunoPPC, GLUes and other small stuffs by HunoPPC.
+Include ow GL4es created by PtitSeb (https://github.com/ptitSeb/gl4es), image decoder PNG/JPEG/BMP/TGA by HunoPPC, sound engine by HunoPPC, AmigaInput lowlevel by HunoPPC,GUI by HunoPPC,SDL1, SDL2 and SDL_image by HunoPPC, GLUes and other small stuffs by HunoPPC.
  
 Documentation not completed Work In Progress for porting your work or all games in the web ;-)
 
@@ -81,18 +84,20 @@ For Projects EGL GLUES OPENGLES (native, use opengles 2.0) please link with this
 Linked by: -use-dynld -legl_wrap -lauto
 
 /*-------------------------------------------Releases-----------------------------------------------------------*/
-Version 0.7.18:
+Version 0.7.19:
 * Updated Gl4ES
 * Updated GUI
 * Added new icons into the GUI
 * Added new Prefs on the GUI for Gl4ES
+* Added SDL1 SDLegl_image.a fixed for fast loading all images supported by this library
+* Fixed problem on AHI with new SDK
 
 
 Version 0.7.18:
 * Updated Gl4ES
 * Added SDL1 EGL includes and package for SDK
 * Added SDL2 EGL includes and package for SDK
-
+* Added option BLITFULLSCREEN on GL4ES parts
 
 Version 0.7.17:
 * Updated Gl4ES
@@ -145,7 +150,6 @@ Version 0.7.13:
 * Glues and Glut lights effects working fine now
 * Fog effects working fine now
 * Colors effects working fine now
-* Added load Shared Objects on native AmigaOS4
 
  
  Version 0.7.12:
