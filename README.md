@@ -3,8 +3,8 @@ Beta Beta Beta Work In Progress please update immediately your all games/API aft
 LibEGL_wrap Version 0.7.19 2022
 
 Minimal required:
-Warp3DNova.library Version 54 revision 16
-ogles2.library Version 3 revision 3
+- Warp3DNova.library Version 54 revision 16
+- ogles2.library Version 3 revision 3
  
 
 EGL can be implemented on multiple operating systems and now on native AmigaOS4.
