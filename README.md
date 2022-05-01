@@ -84,7 +84,7 @@ For Projects EGL GLUES OPENGLES (native, use opengles 2.0) please link with this
 Linked by: -use-dynld -legl_wrap -lauto
 
 /*-------------------------------------------Releases-----------------------------------------------------------*/
-Version 0.7.19:
+- Version 0.7.19:
 * Updated Gl4ES
 * Updated GUI
 * Added new icons into the GUI
@@ -93,20 +93,20 @@ Version 0.7.19:
 * Fixed problem on AHI with new SDK
 
 
-Version 0.7.18:
+- Version 0.7.18:
 * Updated Gl4ES
 * Added SDL1 EGL includes and package for SDK
 * Added SDL2 EGL includes and package for SDK
 * Added option BLITFULLSCREEN on GL4ES parts
 
-Version 0.7.17:
+- Version 0.7.17:
 * Updated Gl4ES
 * Fixed SDL1 Fullscreen render 
 * Added SDL2 EGL (beta)
 
 
 
-Version 0.7.16:
+- Version 0.7.16:
 * Updated Gl4ES
 * Added new Prefs on the GUI for Gl4ES
 * Fixed free surface on Glues render
@@ -125,12 +125,12 @@ Version 0.7.16:
 * Fixed glutKeyboardFunc, keyboard working fine now!!             
  
 
-Version 0.7.15:
+- Version 0.7.15:
 * Updated Gl4ES
 * Fix Prefs file on the GUI           
 
 
-Version 0.7.14:
+- Version 0.7.14:
 * Fixed problem on texture filter
 * Updated Gl4ES
 * Fixed loading texture on Glues no native Projects
@@ -141,7 +141,7 @@ Version 0.7.14:
 PROBLEM: No free surface correctly on Glues render, W.I.P (please reboot your Amiga after use Glues projects)
  
 
-Version 0.7.13:
+- Version 0.7.13:
 * Fixed crash music module on Update Effect.
 * Updated Gl4ES
 * Add new options environment ENVARC
@@ -152,19 +152,18 @@ Version 0.7.13:
 * Colors effects working fine now
 
  
- Version 0.7.12:
+ - Version 0.7.12:
 * Internal Shaders working (limited actually W.I.P)
 * Small speedup on renderer HD
 * New update of GL4ES include
 
  
-Problems:
-* ALPHA problem on games engine (example: IOQUAKE and RTCW)
+- Problems:
+* ALPHA problem on games engine (example: IOQUAKE, RTCW and DOOM3)
 * Internal GAMMA
-* Endianness problems
-* On SDLegl_wrap, Option: SDL_RESIZABLE not working fine
+* Endian problems
 
-In the future:
+- In the future:
 * Loading external Shader on GL 1.X
 * Fix colors and lights effects
 * Add new functions
@@ -174,7 +173,7 @@ In the future:
 
  
 
-Thanks go to:
+- Thanks go to:
 My children "Matthis" and "Sorhënn" for allowing me some time to develop
 Hyperion Entertainment - For the development of Amiga OS 4.0 and 4.1
 Relec for my X1000 NEMO and my X5000
